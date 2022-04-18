@@ -2,12 +2,7 @@ import { PrismaClient } from '@prisma/client';
 import { DataSource } from 'apollo-datasource';
 import { KeyValueCache } from 'apollo-server-caching';
 import * as crypto from 'crypto';
-import { MiddlewareParams } from "./types";
-
-
-type CacheQuery = {
-  ttl: number,
-}
+import { MiddlewareParams, CacheQuery } from "./types";
 
 export class PrismaDataSource extends DataSource {
   public prisma: PrismaClient;

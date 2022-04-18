@@ -25,3 +25,7 @@ export type MiddlewareParams = {
   dataPath: string[];
   runInTransaction: boolean;
 };
+
+export type CacheQuery = {
+  ttl: number,
+}
