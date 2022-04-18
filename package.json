@@ -1,0 +1,15 @@
+{
+  "name": "prisma-datasource",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Alexey Podolsky",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^3.12.0",
+    "apollo-server": "^3.6.7"
+  },
+  "devDependencies": {
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
